@@ -1,0 +1,10 @@
+apiVersion:  v1
+kind:  ConfigMap
+metadata:
+  name:  recr-config
+  namespace:  iyas-ns
+data:
+  PORT:  "3000"
+  DB_NAME:  "hr_system"
+  MONGO_HOST: "mongodb"
+  MONGO_PORT: "27017"
