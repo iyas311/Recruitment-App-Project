@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: hr-app
-          image: hr-app:latest
+          image: iyask/recrapp:v1.0.1
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 3000
