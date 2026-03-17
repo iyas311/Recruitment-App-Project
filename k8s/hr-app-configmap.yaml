@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hr-app-config
+data:
+  PORT: "3000"
+  DB_NAME: "hr_system"
